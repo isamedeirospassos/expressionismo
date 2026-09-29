@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="Uma exposição sobre sentir: conheça o Expressionismo com os alunos do 1º ano do Ensino Médio.">
+  <title>Expressionismo — Exposição do 1º ano</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#sobre">Pular para o conteúdo</a>
+  <header class="header wrap">
+    <a class="brand" href="#inicio" aria-label="Exposição, início"><span class="brand-mark" aria-hidden="true">E.</span> ARTE QUE SE SENTE</a>
+    <nav aria-label="Navegação principal">
+        <a href="#sobre">O movimento</a>
+
+        <a href="#comentarios">
+            Deixe sua marca <span aria-hidden="true">↗</span>
+        </a>
+
+        <a href="painel.html" class="admin-link">
+            <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            >
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 21v-2a8 8 0 0 1 16 0v2"></path>
+            </svg>
+
+            Área do administrador
+        </a>
+        </nav>
+  </header>
+  <main>
+    <section class="hero wrap" id="inicio" aria-labelledby="titulo">
+      <div class="eyebrow"><span class="red-line"></span> EXPOSIÇÃO ESCOLAR</div>
+      <h1 id="titulo">EXPRESSIONISMO</h1>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="class-year">1º ano do Ensino Médio</p>
+          <p class="location"><span aria-hidden="true">↗</span> 3º andar — primeira sala</p>
+          <blockquote>“Mais do que representar o que vemos, o Expressionismo busca mostrar <em>o que sentimos.</em>”</blockquote>
+          <a class="button" href="#sobre">ENTRE NESSA EXPERIÊNCIA <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="art-poster" aria-hidden="true">
+          <div class="poster-top">UM OLHAR PARA DENTRO <span>01 / ARTE</span></div>
+          <div class="paint paint-one"></div><div class="paint paint-two"></div><div class="paint paint-three"></div>
+          <p class="poster-type">sentir.<br><span>expressar.</span><br>transformar.</p>
+          <div class="poster-bottom">A EMOÇÃO TAMBÉM É UMA FORMA DE ARTE.</div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>CORES FORTES. SENTIMENTOS REAIS.</span><span aria-hidden="true">CONTINUE EXPLORANDO ↓</span></div>
+    </section>
+    <section class="about" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="wrap about-grid reveal">
+        <div><p class="eyebrow">01 — O MOVIMENTO</p><h2 id="sobre-titulo">Nem tudo é<br>sobre <em>parecer.</em><br>É sobre sentir.</h2></div>
+        <div class="about-copy"><p class="lead">E se a arte mostrasse o mundo de dentro para fora?</p><p>O Expressionismo ganhou força no início do século XX. Em vez de copiar a realidade, os artistas procuravam expressar suas emoções e sua maneira de sentir o mundo.</p><p>Por isso, usavam <strong>cores fortes, formas distorcidas e traços marcantes.</strong> Alegria, inquietação, afeto, solidão: cada obra pode abrir espaço para uma sensação diferente.</p><p class="hand-note">Aqui, você também pode sentir à sua maneira.</p></div>
+      </div>
+      <div class="wrap features reveal"><div><span>01</span><h3>Cores que falam</h3><p>A cor ajuda a transmitir emoção.</p></div><div><span>02</span><h3>Formas livres</h3><p>A realidade ganha novos contornos.</p></div><div><span>03</span><h3>Traços com força</h3><p>O gesto do artista também se expressa.</p></div></div>
+    </section>
+    <section class="feedback wrap" id="comentarios" aria-labelledby="comentarios-titulo">
+      <div class="feedback-intro reveal"><p class="eyebrow">02 — SUA VEZ DE SE EXPRESSAR</p><h2 id="comentarios-titulo">Queremos saber<br>o que você <em>achou!</em> <span class="heart">❤️</span></h2><p>A exposição foi feita por nós.<br>A experiência fica completa com você.</p><p class="small">Basta responder a um dos campos.<br>Não precisa colocar seu nome.</p></div>
+      <form id="feedback-form" class="form-card reveal" aria-describedby="form-note" novalidate>
+        <p class="form-heading">Deixe sua marca por aqui.</p>
+        <label for="gostou">O que você mais gostou na sala?</label><textarea id="gostou" name="gostou" rows="2" maxlength="1500" placeholder="Uma obra, um detalhe, uma sensação…"></textarea>
+        <label for="opiniao">O que achou da exposição?</label><textarea id="opiniao" name="opiniao" rows="2" maxlength="1500" placeholder="Conte como foi a sua experiência."></textarea>
+        <label for="sugestoes">Tem alguma sugestão?</label><textarea id="sugestoes" name="sugestoes" rows="2" maxlength="1500" placeholder="Sua ideia é bem-vinda!"></textarea>
+        <label for="mensagem">Uma mensagem para os alunos</label><textarea id="mensagem" name="mensagem" rows="3" maxlength="1500" placeholder="Deixe seu comentário ou recado aqui."></textarea>
+        <p id="form-note" class="form-note">Evite incluir telefone, endereço ou outros dados pessoais.</p>
+        <p id="connection-note" class="connection-note">Prévia: o envio ainda não está conectado. Os comentários não serão enviados.</p>
+        <button class="button" type="submit">ENVIAR COMENTÁRIO <span aria-hidden="true">↗</span></button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite" tabindex="-1"></p>
+        <noscript><p>Ative o JavaScript para utilizar o formulário.</p></noscript>
+      </form>
+    </section>
+  </main>
+  <footer class="wrap footer"><a class="footer-title" href="#inicio">EXPRESSIONISMO<span>.</span></a><p>Feito com expressão, por alunos do<br><strong>1º ano do Ensino Médio.</strong></p><a href="#inicio" aria-label="Voltar ao início">VOLTAR AO TOPO ↑</a></footer>
+</body>
+</html>
