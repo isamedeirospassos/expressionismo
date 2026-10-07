@@ -1,42 +1,28 @@
-🎨 Expressionismo — Exposição Escolar
+# Expressionismo — Exposição Escolar
 
-Site interativo desenvolvido para uma exposição escolar sobre o Expressionismo, realizada pelos alunos do 1º ano do Ensino Médio.
+Site interativo desenvolvido para uma exposição escolar sobre o Expressionismo, realizada por alunos do 1º ano do Ensino Médio.
 
-O projeto foi pensado para complementar a experiência da exposição física. Por meio de um QR Code, os visitantes podem acessar o site pelo celular, conhecer um pouco mais sobre o movimento artístico e deixar comentários para os alunos.
+O projeto complementa a exposição física, permitindo que os visitantes acessem conteúdos sobre o movimento artístico e deixem comentários por meio de um QR Code.
 
-✨ Funcionalidades
+## Funcionalidades
 
-📱 Design responsivo para celular e desktop
+- Layout responsivo para celular e desktop.
+- Identidade visual inspirada no Expressionismo.
+- Formulário para comentários dos visitantes.
+- Painel para visualização das respostas.
+- Área administrativa.
+- Armazenamento dos comentários em banco de dados.
 
-🎨 Identidade visual inspirada no Expressionismo
+## Tecnologias utilizadas
 
-💬 Formulário para comentários dos visitantes
+HTML, CSS, JavaScript, Supabase e SQL.
 
-📊 Painel para visualização das respostas
+## Projeto
 
-🔐 Área administrativa
+[Acessar o site](https://expressionismo.netlify.app/)
 
-🗄️ Armazenamento dos comentários em banco de dados
+## Autora
 
-💻 Tecnologias
+Isabella Passos
 
-HTML
-
-CSS
-
-JavaScript
-
-Supabase
-
-SQL
-
-🎯 Objetivo
-
-Criar uma extensão digital da exposição, proporcionando uma experiência mais interativa aos visitantes e permitindo que os alunos recebam feedback sobre o trabalho apresentado.
-
-🚀 Projeto
-
-🔗 Acesse o site:
-https://expressionismo.netlify.app/
-
-Desenvolvido como projeto pessoal para apoiar a exposição e colocar em prática conhecimentos de desenvolvimento web e banco de dados.
+[GitHub](https://github.com/isamedeirospassos)
